@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+        }
+        .images{
+            width: 900px;
+            height: 200px;
+            align-items: center;
+            
+        }
+        img{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 10px solid white;
+        }
+        .first{
+            position: absolute;
+            z-index: 4;
+        }
+        .second{
+            position: absolute;
+            left: 350px;
+            z-index: 3;
+        }
+        .third{
+            position: absolute;
+            left: 500px;
+            z-index: 2;
+        }
+        .fourth{
+            z-index: 1;
+            position: absolute;
+            left: 650px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="images">
+            <div>
+            <img src="./download (3).jpg" alt="" class="first">
+            <img src="./download (4).jpg" alt="" class="second">
+            <img src="./download (5).jpg" alt="" class="third">
+            <img src="./download (6).jpg" alt="" class="fourth">
+        </div>
+        </div>
+
+    </div>
+</body>
+</html>

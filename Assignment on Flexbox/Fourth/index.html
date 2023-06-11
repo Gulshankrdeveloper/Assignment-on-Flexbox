@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            width: 100%;
+            height: 100vh;
+           background-color: white;
+        }
+        .head{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .but{
+            margin:10px 20px;
+           
+        }
+        .work{
+            margin-right:30px;
+            text-decoration: none;
+        }
+        .head button{
+            margin-left: 30px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+        }
+        .head img{
+            margin-left: 30px;
+        }
+        .sign{
+            color: blue;
+           
+        }
+        .account{
+            color: white;
+            background-color: rgb(89, 89, 255);
+            font-weight: bold;
+        }
+        .content{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            margin-top: 100px;
+            font-style: inherit;
+           
+        }
+        .left p{
+            margin-top: 20px;
+        }
+        .foot{
+            margin-top: 80px;
+        }
+        .foot button{
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+        }
+        .foot a{
+            margin-left: 50px;
+            text-decoration: none;
+        }
+        .line{
+            background-color: black;
+        }
+        .mainimage{
+            background:linear-gradient(white 80%);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+           <img src="./newgmaillogo.jpg" alt="" width="100px" height="50px">
+
+            <div class="but">
+                <a href="http://" class="work">For work</a>
+                <button class="sign">Sign In</button>
+                <button class="account">Create an account</button>
+            </div>
+        </div>
+        <hr class="line">
+
+        <div class="content">
+            <div class="left">
+                <h1>Secure, smart, <br>and easy to use <br>email</h1>
+                <p>Get more done with Gmail. Now integrated with Google <br>Chat, Google Meet, and more, all in one place</p>
+                <div class="foot">
+                    <button class="account">Create an account</button>
+                    <a href="http://">For work</a>
+                </div>
+            </div>
+
+            <div class="right">
+                <img src="./IMG-20230607-WA0013.jpg" alt="" height="400px" width="500px" class="mainimage">
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
